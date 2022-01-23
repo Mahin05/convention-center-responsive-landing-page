@@ -16,3 +16,10 @@
     font-size: 16px;
     color: #3E3E3E;
 }
+
+@media only screen and (max-width:688px) {
+    .carousel-style{
+        width: 360px;
+        height: 586px;
+    }
+}
