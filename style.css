@@ -1,7 +1,32 @@
+/*-----google font import---------  */
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@800&family=Oswald:wght@500&family=Overpass:wght@200;300&family=Pacifico&family=Poppins:wght@400;500&family=Roboto+Mono:wght@500&display=swap');
+/*-----google font import---------  */
+
+
+/*------ html body part -------- */
 html,body{
     overflow-x: hidden;
 }
+/*------ html body part -------- */
+
+
+/*------------- navbar-name--------- */
+.name-nav-item-style{
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight:bold;
+}
+.li-nav-item-style{
+    margin-right: 26px;
+    font-family: Poppins;
+    font-weight:600;
+    font-size: 16px;
+    color: #3E3E3E;
+}
+/*------------- navbar-name--------- */
+
+
+/* ------------carousel button style--------  */
 .btn-style{
     border: none;
     background-color: white;
@@ -12,69 +37,49 @@ html,body{
     font-weight: bold;
     font-size: 16px;
 }
-.choose-plan-btn-style{
-    border: none;
-    background-color: rgba(112, 128, 144, 0.281);
-    border-radius: 24px;
-    width: 207px;
-    height: 45px;
-    color: #3F87F5;
-    font-weight: bold;
-    font-size: 16px;
-}
-.fa-style{
-    width: 20px;
-    height: 20px;
-    background: rgba(82, 67, 194, 0.103693);
-    color: blue;
-}
-.fa-style-another{
-    width: 20px;
-    height: 20px;
-    background: rgba(82, 67, 194, 0.103693);
-    color:white
-}
-.li-nav-item-style{
-    margin-right: 26px;
-    font-family: Poppins;
-    font-weight: 500;
-    font-size: 16px;
-    color: #3E3E3E;
-}
+/* ------------carousel button style--------  */
 
-@media only screen and (max-width:688px) {
-    .carousel-style{
-        width: 360px;
-        height: 586px;
-    }
-    .toast-style{
-        margin-left: 5%;
-        margin-top: 5%;
-    }
-}
-@media only screen and (min-width:992px) and (max-width:1312px) {
-    .toast-style{
-        margin-top: 2%;
-        margin-left: 72%;
-    }
-}
-@media only screen and (min-width:689px) and (max-width:991px) {
-    .toast-style{
-        margin-top: 2%;
-        margin-left: 28%;
-    }
-}
+
+/* ---------package section style--------  */
 .other-card-style{
     font-family: Poppins;
     color: #3E3E3E;
+    font-size:25px;
+    font-weight: 700;
+
 }
-.other-card-style p{
+.third-card-h1-h2-style{
+    font-size:25px;
+    font-family: Poppins;
+    font-weight: 700;
+
+
+}
+.third-card-style-p{
     font-family: Poppins;
     color: #3E3E3E;
+    font-weight: 500;
+}
+.badge-style{
+    top: 0;
+    margin-left: 75%;
+}
+.other-card-style-p{
+    font-family: Poppins;
+    color: #3E3E3E;
+    font-weight: 500;
+}
+
+.card-paragraph-margin{
+    margin-top: 40px;
+}
+.card-fa-p-margin{
+    margin-bottom: 22px;
 }
 .third-card-style{
     color: white;
-    bottom: 30px;
+    bottom: 40px;
+    width: 270px;
     height: 480px;
     background: #3F87F5;
     box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
@@ -89,7 +94,112 @@ html,body{
     border-radius: 24px;
 
 }
+.third-card-paragraph-margin{
+    margin-top: 50px;
+}
+.third-card-fa-p-margin{
+    margin-bottom: 22px;
+
+}
+.fa-style{
+    width: 20px;
+    height: 20px;
+    background: rgba(82, 67, 194, 0.103693);
+    color: blue;
+}
+
+.choose-plan-btn-style{
+    border: none;
+    background-color: rgba(112, 128, 144, 0.281);
+    border-radius: 24px;
+    width: 207px;
+    height: 45px;
+    color: #3F87F5;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.fa-style-another{
+    width: 20px;
+    height: 20px;
+    background: rgba(82, 67, 194, 0.103693);
+    color:white
+}
+/* ---------package section style--------  */
+
+
+/* -----media query for small device-------  */
+@media only screen and (max-width:688px) {
+    .carousel-style{
+        width: 360px;
+        height: 586px;
+    }
+    .toast-style{
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+    .accodion-style{
+        width: 370px;
+    }
+    .people-img-style{
+        width: 351px;
+        height: 301px;
+    }
+    .accodion-device-style{
+        margin-top: 20px;
+        order: 2;
+    }
+    .image-device-style{
+        order: 1;
+    }
+    .other-card-style-p{
+        font-family: Poppins;
+        color: #3E3E3E;
+        font-weight: 500;
+        padding-right: 100px;
+    }
+
+}
+/* -----media query for small device-------  */
+
+
+/*-------- media query for large device----------*/
+@media only screen and (min-width:992px) and (max-width:1312px) {
+    .toast-style{
+        margin-top: 2%;
+        margin-left: 72%;
+    }
+    .accodion-style{
+        width: 505px;
+    }
+    .frequently-style{
+        margin-left: 10%;
+    }
+    .car-h1-style{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 48px;
+        text-align: center;
+    }
+}
+/*-------- media query for large device----------*/
+
+
+/*----------media query for medium device(optional)--------*/
+@media only screen and (min-width:689px) and (max-width:991px) {
+    .toast-style{
+        margin-top: 2%;
+        margin-left: 28%;
+    }
+}
+/*----------media query for medium device(optional)--------*/
+
+
+/*---------- bonus section style--------*/
 .section-h1-style{
+    margin-top: 120px;
+    margin-bottom: 80px;
     font-family: Poppins;
     font-style: normal;
     font-weight: 600;
@@ -100,6 +210,31 @@ html,body{
     align-items: center;
     text-align: center;
 }
+.moment-bg-set{
+    background-color: rgba(255, 251, 0, 0.144);
+    border-radius: 20px;
+}
+.moment-image-style{
+    border-radius: 20px;
+}
+.moment-h1-p-style h1{
+    font-family: Poppins;
+    color: brown;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 38px;
+}
+.moment-h1-p-style p{
+    font-family: Poppins;
+    color: rgba(0, 0, 0, 0.884);
+    font-size: 20px;
+    font-weight: 600;
+}
+/*---------- bonus section style--------*/
+
+
+
+/* ----------footer style----------  */
 footer{
     background-color: black;
     margin-top: 60px;
@@ -114,3 +249,7 @@ footer{
     margin-left: 15%;
 
 }
+/* ----------footer style----------  */
+
+
+
